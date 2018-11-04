@@ -7,7 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         Adobe PhoneGap Team
     </author>
-    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
     <hook src="resources/script/before-test-runner.js" type="before_prepare" />
     <hook src="resources/script/after-test-runner.js" type="after_prepare" />
     <hook src="resources/script/copy-android-push-icon.js" type="before_build" />
@@ -69,7 +69,7 @@
     <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
     </plugin>
-    <plugin name="cordova-plugin-camera" spec="^2.4.1">
+    <plugin name="cordova-plugin-camera">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
     </plugin>
